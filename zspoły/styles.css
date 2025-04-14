@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.teams-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.team {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.team img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.team h2 {
+    margin-bottom: 10px;
+    color: #cc0000;
+}
+
+.team p {
+    font-size: 16px;
+    line-height: 1.6;
+}
